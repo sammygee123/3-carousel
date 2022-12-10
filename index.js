@@ -10,6 +10,7 @@ carouselButtons.forEach(button => {
       if (imageIndex !== 1) {
         imageIndex--;
         translateX += 300;
+        console.log("previous")
       }
     } else {
       if (imageIndex !== numberOfImages) {
@@ -21,3 +22,4 @@ carouselButtons.forEach(button => {
     carouselImages.style.transform = `translateX(${translateX}px)`;
   });
 });
+console.log(carouselButtons)
