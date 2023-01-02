@@ -9,13 +9,20 @@ carouselButtons.forEach(button => {
     if (event.target.id === 'previous') {
       if (imageIndex !== 1) {
         imageIndex--;
-        translateX += 300;
-        console.log("previous")
+        translateX += 500;
+      } else if(imageIndex === 1){
+        translateX = (numberOfImages - 1) * -500
+        imageIndex = numberOfImages
+        
       }
     } else {
       if (imageIndex !== numberOfImages) {
         imageIndex++;
-        translateX -= 300;
+        translateX -= 500;
+        
+      } else if (imageIndex === numberOfImages){
+        translateX = 0
+        imageIndex = 1
       }
     }
     
