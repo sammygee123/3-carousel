@@ -17,9 +17,9 @@ body{
 }
 @media  (max-width: 500px) {
     body {
-      margin-top: 20vh;
-      height: unset;
       display: block;
+      background: #605c41;
+      margin-top: 150px;
     }
   }
 .carousel{
