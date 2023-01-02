@@ -15,7 +15,7 @@ body{
     height: 100vh;
     background-image: linear-gradient(to bottom right,#7caf97,#d4ca89);
 }
-@media  (max-width: 500px) {
+@media (max-width: 500px) {
     body {
       display: block;
       background: #605c41;
