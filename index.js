@@ -29,4 +29,4 @@ carouselButtons.forEach(button => {
     carouselImages.style.transform = `translateX(${translateX}px)`;
   });
 });
-console.log(carouselButtons)
+
